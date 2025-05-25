@@ -1,0 +1,11 @@
+.git/
+.github/
+venv/
+.venv/
+.idea/
+__pycache__/
+.run/
+dist/
+releases/
+docs/xorgschool/config/__init__.py
+docs/xsystem/presentation/ui/telegram/*/__init__.py
