@@ -8,4 +8,3 @@ __pycache__/
 dist/
 releases/
 docs/xorgschool/config/__secret__.py
-docs/xsystem/presentation/ui/telegram/*/__init__.py
