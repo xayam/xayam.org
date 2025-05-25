@@ -10,3 +10,4 @@ TELEGRAM_XPORTFOLIOS_ENABLE = True
 
 # Включение/отключение сайта школы
 TELEGRAM_XORGSHOOL_ENABLE = True
+
