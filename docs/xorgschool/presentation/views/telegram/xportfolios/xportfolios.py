@@ -6,7 +6,7 @@ import re
 import telebot
 from telebot import types
 
-from docs.xorgschool.config import TELEGRAM_XPORTFOLIOS_BOT_API_KEY
+from .....config import TELEGRAM_XPORTFOLIOS_BOT_API_KEY
 
 bot = telebot.TeleBot(TELEGRAM_XPORTFOLIOS_BOT_API_KEY)
 
