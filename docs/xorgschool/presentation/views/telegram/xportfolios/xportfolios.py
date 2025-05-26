@@ -6,7 +6,7 @@ import re
 import telebot
 from telebot import types
 
-from .....config import TELEGRAM_XPORTFOLIOS_BOT_API_KEY
+from __secret__ import TELEGRAM_XPORTFOLIOS_BOT_API_KEY
 
 bot = telebot.TeleBot(TELEGRAM_XPORTFOLIOS_BOT_API_KEY)
 

@@ -1,0 +1,20 @@
+cd /var/www/www-root/data
+sudo apt install python3.12-venv
+sudo python -m venv xayamorgvenv
+source xayamorgvenv/bin/activate
+pip install openai
+pip install pyTelegramBotAPI
+
+cd /var/www/www-root/data && python -m venv xayamorgvenv && source xayamorgvenv/bin/activate && pip install openai && pip install pyTelegramBotAPI
+
+xayamorgvenv/bin/python www/xayam.org/xorgschool/presentation/views/telegram/xayamorg/xayamorg.py
+
+ps aufx | grep xayamorg.py
+ps aufx | grep python
+
+pkill -f xayamorg.py
+cd /var/www/www-root/data && xayamorgvenv/bin/python www/xayam.org/xorgschool/presentation/views/telegram/xayamorg/xayamorg.py
+
+ps aufx | grep xayamorg.py
+ps aufx | grep python
+
