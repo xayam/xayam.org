@@ -7,4 +7,4 @@ __pycache__/
 .run/
 dist/
 releases/
-docs/xorgschool/config/__secret__.py
+__secret__.py
