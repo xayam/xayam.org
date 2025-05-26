@@ -19,7 +19,8 @@ def command_pdf():
 
 def menu_execute(command, message):
     try:
-        data_file = os.getcwd() + "/data/" + command[1:] + ".html"
+        data_file = os.path.dirname(os.path.realpath(__file__)) \
+                    + "/data/" + command[1:] + ".html"
         print(data_file)
         info = "В базе бота отсутствует информация по данной команде."
         if os.path.exists(data_file):
