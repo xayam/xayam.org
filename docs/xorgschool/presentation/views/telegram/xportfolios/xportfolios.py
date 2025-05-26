@@ -78,8 +78,10 @@ def callback_inline(call):
     commands[call.data]["handler"](command=call.data, message=call.message)
 
 
-while True:
+if __name__ == "__main__":
     try:
-        bot.polling(none_stop=True, interval=0)
-    except Exception as e:
-        print("ERROR 1000: " + str(type(e)) + " / " + e.__str__())
+        bot.polling()
+    except telebot.apihelper.ApiTelegramException as e1:
+        print("ERROR 1101: " + str(type(e1)) + " / " + e1.__str__())
+    except Exception as e2:
+        print("ERROR 1102: " + str(type(e2)) + " / " + e2.__str__())
