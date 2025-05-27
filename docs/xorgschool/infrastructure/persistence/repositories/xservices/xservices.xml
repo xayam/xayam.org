@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<!--<?xml-stylesheet type="text/xsl" href="xservices.xsl"?>-->
+<!--<?xml-stylesheet type="text/css" href="xservices.css"?>-->
+<!DOCTYPE services SYSTEM "xservices.dtd">
+<xservices>
+    <local type="file" href="local/services.xml"></local>
+    <thirdparty type="file" href="thirdparty/partners.xml"></thirdparty>
+</xservices>
