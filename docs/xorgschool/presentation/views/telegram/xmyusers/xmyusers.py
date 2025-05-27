@@ -6,9 +6,9 @@ import re
 import telebot
 from telebot import types
 
-from __secret__ import TELEGRAM_XAYAMORG_BOT_API_KEY
+from __secret__ import TELEGRAM_XMYUSERS_BOT_API_KEY
 
-bot = telebot.TeleBot(TELEGRAM_XAYAMORG_BOT_API_KEY)
+bot = telebot.TeleBot(TELEGRAM_XMYUSERS_BOT_API_KEY)
 
 def command_html():
     pass

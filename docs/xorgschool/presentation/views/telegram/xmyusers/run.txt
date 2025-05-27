@@ -1,0 +1,20 @@
+cd /var/www/www-root/data
+sudo apt install python3.12-venv
+sudo python -m venv xmyusersvenv
+source xmyusersvenv/bin/activate
+pip install openai
+pip install pyTelegramBotAPI
+
+cd /var/www/www-root/data && python -m venv xmyusersvenv && source xmyusersvenv/bin/activate && pip install openai && pip install pyTelegramBotAPI
+
+xmyusersvenv/bin/python www/xayam.org/xorgschool/presentation/views/telegram/xmyusers/xmyusers.py
+
+ps aufx | grep xmyusers.py
+ps aufx | grep python
+
+pkill -f xmyusers.py
+cd /var/www/www-root/data && xmyusersvenv/bin/python www/xayam.org/xorgschool/presentation/views/telegram/xmyusers/xmyusers.py
+
+ps aufx | grep xmyusers.py
+ps aufx | grep python
+

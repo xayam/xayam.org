@@ -1,0 +1,20 @@
+cd /var/www/www-root/data
+sudo apt install python3.12-venv
+sudo python -m venv xmailingvenv
+source xmailingvenv/bin/activate
+pip install openai
+pip install pyTelegramBotAPI
+
+cd /var/www/www-root/data && python -m venv xmailingvenv && source xmailingvenv/bin/activate && pip install openai && pip install pyTelegramBotAPI
+
+xmailingvenv/bin/python www/xayam.org/xorgschool/presentation/views/telegram/xmailing/xmailing.py
+
+ps aufx | grep xmailing.py
+ps aufx | grep python
+
+pkill -f xmailing.py
+cd /var/www/www-root/data && xmailingvenv/bin/python www/xayam.org/xorgschool/presentation/views/telegram/xmailing/xmailing.py
+
+ps aufx | grep xmailing.py
+ps aufx | grep python
+
