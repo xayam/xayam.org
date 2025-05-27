@@ -2,7 +2,8 @@
 
 XAYAM.ORG
 
-0) ReRunBots
+0) StopBots 
+Это задание крона не активно по умолчанию, выполняем вручную для остановки всех ботов
 
 pkill -f absolaris.py && pkill -f xayamorg.py && pkill -f xmailing.py && pkill -f xmyusers.py && pkill -f xportfolios.py
 
