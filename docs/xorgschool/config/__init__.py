@@ -3,7 +3,7 @@
 from __secret__ import *
 
 # Название школы
-XORGSHOOL_NAME = "Школа КСАЯМа"
+XORGSHOOL_NAME = "Школа КСАЯМ"
 
 # Включение/отключение телеграм-бота портфолио основателя
 TELEGRAM_XPORTFOLIOS_ENABLE = True
