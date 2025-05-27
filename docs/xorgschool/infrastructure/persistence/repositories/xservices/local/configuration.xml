@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<!--<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>-->
+<!--<?xml-stylesheet type="text/css" href="configuration.css"?>-->
+<!DOCTYPE services SYSTEM "configuration.dtd">
+<configuration>
+    <name rus="Школа КСАЯМ" eng="School XAYAM">
+	</name>
+	<about 
+		rus="" 
+		eng=""
+		>
+    </about>
+	<description 
+		rus="" 
+	    eng=""
+		>
+	</description>
+	<photo href="data:"></photo>
+	<url href="https://xayam.org">xayam.org</url>
+    <email>xayam@yandex.ru</email>
+</configuration>

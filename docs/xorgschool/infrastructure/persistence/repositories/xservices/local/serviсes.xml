@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<!--<?xml-stylesheet type="text/xsl" href="services.xsl"?>-->
+<!--<?xml-stylesheet type="text/css" href="services.css"?>-->
+<!DOCTYPE services SYSTEM "services.dtd">
+<services>
+    <languages href="languages.xml" type="file" 
+	    rus="Языки" 
+		eng="Languages"
+	>
+	</languages>
+	<configuration href="configuration.xml" type="file" 
+	    rus="Конфигурация" 
+		eng="Configuration"
+	>
+	
+	</configuration>
+	<items 
+	    rus="Услуги" 
+		eng="Services"
+	>
+	    <training type="container" 
+		    rus="Обучение" 
+			eng="Training"
+		>
+		
+		</training>
+		<search type="container" 
+		    rus="Поиск" 
+			eng="Search"
+		>
+		
+		</search>
+		<testing type="container" 
+		    rus="Тестирование" 
+			eng="Testing"
+		>
+		
+		</testing>
+		<certification type="container" 
+		    rus="Сертификация"
+			eng="Certification"
+		>
+		
+		</certification>
+		<mailing type="container" 
+		    rus="Рассылка" 
+			eng="Mailing"
+		>
+		
+		</mailing>
+		<information type="container"
+            rus="Информация" 
+			eng="Information"
+		>
+		    <about type="container"
+                 rus="О школе" 
+				 eng="About"
+			>
+			    <section href="information/about/section1.xml" type="file"
+				    rus="Раздел1" 
+					eng="Section1"
+				>
+				
+				</section>
+			</about>
+		    <charter type="container" 
+			    rus="Устав" 
+				eng="Charter"
+			>
+			    <rus href="information/charter/rus-charter.txt" type="file">
+				    Устав школы на русском.
+				</rus>
+			    <eng href="information/charter/eng-charter.txt" type="file">
+				    Charter of school in English.
+				</eng>
+			</charter>
+		    <contacts type="container" 
+			    rus="Контакты" 
+				eng="Contacts"
+			>
+			    <contact href="contacts/contact1.xml" type="file"></contact>
+			</contacts>
+			<additional type="container" 
+			    rus="Дополнительно" 
+				eng="Additional"
+			>
+			
+			</additional>
+		    <reports type="container" 
+			    rus="Отчеты" 
+				eng="Reports"
+			>
+			
+			</reports>
+		    <export type="container" 
+			    rus="Экспорт" 
+				eng="Export"
+			>
+			
+			</export>
+		</information>
+		<cooperation type="container" 
+		    rus="Сотрудничество" 
+			eng="Cooperation"
+		>
+		
+		</cooperation>
+		<others type="container" 
+		    rus="Другие"
+			eng="Others"
+		>
+		
+		</others>
+	</items>
+</services>

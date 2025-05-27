@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<!--<?xml-stylesheet type="text/xsl" href="contact.xsl"?>-->
+<!--<?xml-stylesheet type="text/css" href="contact.css"?>-->
+<!DOCTYPE services SYSTEM "contact.dtd">
+<contact>
+    <email>example1@domain1.org</email>
+	<description>
+	    <rus>Русское описание контакта1</rus>
+	    <eng>English description of contact1</eng>
+	</description>
+	<photo href="data:">Подпись под фото</photo>
+</contact>

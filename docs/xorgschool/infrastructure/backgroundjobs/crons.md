@@ -1,8 +1,4 @@
 
 
-ps aufx | grep u3026735 
 
-killall -u u3026735 && cd ~ && source absolarisenv/bin/activate && absolarisenv/bin/python www/xayam.ru/absolaris/absolaris.py 
-
-ps aufx | grep u3026735 
 

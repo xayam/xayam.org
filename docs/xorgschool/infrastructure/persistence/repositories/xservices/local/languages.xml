@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<!--<?xml-stylesheet type="text/xsl" href="languages.xsl"?>-->
+<!--<?xml-stylesheet type="text/css" href="languages.css"?>-->
+<!DOCTYPE services SYSTEM "languages.dtd">
+<languages>
+    <rus>Русский</rus>
+    <eng>English</eng>
+</languages>
