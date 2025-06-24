@@ -46,8 +46,8 @@ commands = {
     # "/disease": { "handler": menu_execute, "name": "Болезнь"},
     # "/autobiography": { "handler": menu_execute, "name": "Автобиография"},
     # "/status": { "handler": menu_execute, "name": "Статус"},
-    "/html": { "handler": command_html, "name": "HTML"},
-    "/pdf": { "handler": command_pdf, "name": "PDF"},
+    # "/html": { "handler": command_html, "name": "HTML"},
+    # "/pdf": { "handler": command_pdf, "name": "PDF"},
 }
 
 def menu_create() -> types.InlineKeyboardMarkup:
