@@ -41,11 +41,11 @@ commands = {
     "/skills": { "handler": menu_execute, "name": "Навыки"},
     "/tools": { "handler": menu_execute, "name": "Инструменты"},
     "/education": { "handler": menu_execute, "name": "Образование"},
-    "/experience": { "handler": menu_execute, "name": "Опыт работы"},
+    # "/experience": { "handler": menu_execute, "name": "Опыт работы"},
     "/interests": { "handler": menu_execute, "name": "Интересы"},
     # "/disease": { "handler": menu_execute, "name": "Болезнь"},
     # "/autobiography": { "handler": menu_execute, "name": "Автобиография"},
-    "/status": { "handler": menu_execute, "name": "Статус"},
+    # "/status": { "handler": menu_execute, "name": "Статус"},
     "/html": { "handler": command_html, "name": "HTML"},
     "/pdf": { "handler": command_pdf, "name": "PDF"},
 }
